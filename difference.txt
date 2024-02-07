@@ -1,1 +1,26 @@
-difference between <artical> & <p>
+difference between <article> & <p>
+
+<article>: grouping of content.
+           is useful for marking up content that makes sense on its own and could be reused in different contexts.
+
+<p>: is specifically designed for defining paragraphs. It represents a block of text and is commonly used to structure and separate textual content into distinct paragraphs.
+     it is more granular and represents smaller units of text within a larger section.
+     
+Unlike the <article> tag, the <p> tag doesn't say, "I'm a complete and standalone piece."
+Instead, it says, "I'm part of the bigger story or section."
+So, when you use <p> tags, you're telling the browser that these paragraphs go together, and they're just part of the overall content flow.
+
+The choice depends on the level of independence and reusability of the content you are representing.
+
+**************************************************************************
+difference between <div> & <section>
+
+Both the <section> and <div> elements in HTML are used for grouping and structuring content,
+
+<section>: introduced in HTML5, represents a thematic grouping of content with a heading.
+           It is intended for organizing content into meaningful sections, where each section has its own heading and could potentially be treated as a standalone unit.
+
+<div>: is a generic container that doesn't carry any specific semantic meaning.
+       It is a block-level container that is often used for grouping and styling purposes.
+       Does not have any specific provisions for including a heading.
+       Does not imply that the grouped content is a standalone unit.
